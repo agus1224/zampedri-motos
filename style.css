@@ -1,0 +1,169 @@
+/*index*/
+.avatar img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.nav {
+  background-color: rgb(147, 27, 53);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.nav .nav-link {
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+}
+.nav .nav-link:hover {
+  color: #ddd;
+}
+.nav .nav-link.active {
+  background-color: #8a2f2f;
+  color: white;
+  border-radius: 0.3rem;
+}
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
+}
+body {
+  background-color: #958e8e !important;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 30%;
+}
+h4 {
+  font-family: sans-serif;
+  text-align: center;
+  width: 60%;
+}
+#carouselExampleAutoplaying img {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+   border-radius: 20px;
+}
+@media (max-width: 600px) {
+  #carouselExampleAutoplaying img {
+    width: 100%;
+    height: 250px;
+  }
+}
+.servicios {
+  background-color: #f2f2f2;
+  border: 2px solid rgb(161, 22, 50);
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%;
+}
+.servicios h2 {
+  text-align: center;
+  color: rgb(161, 22, 50);
+}
+.lista-servicios {
+  display: flex;
+  gap: 30px;
+}
+.lista-servicios ul {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .lista-servicios {
+    flex-direction: column;
+  }
+
+  .lista-servicios ul {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: rgb(79, 16, 29);
+  color: white;
+  padding: 12px;
+  margin-top: 25px;
+}
+.footer h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.footer h5 {
+  font-size: 12px;
+  margin: 5px;
+  font-weight: normal;
+  padding-left: 30px;
+}
+/*deberia ir productos*/
+
+
+
+/*ubicación*/
+.cuadro-ubicacion {
+  background-color: #d94f50;
+  color: black;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px;
+}
+.mapa {
+    width: 95%;
+    margin: 20px auto;
+    border: 3px solid #a11632;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.mapa iframe {
+    display: block;
+}
+/*deberia ir contacto*/
+.formulario {
+  background-color: #f2f2f2;
+  border: 2px solid rgb(161, 22, 50);
+  border-radius: 15px;
+  padding: 25px;
+  width: 60%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+.formulario h2 {
+  color: rgb(161, 22, 50);
+  text-align: center;
+}
+.formulario label {
+  display: block;
+  margin-top: 12px;
+}
+.formulario input,
+.formulario textarea {
+  width: 95%;
+  padding: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.formulario button {
+  background-color: rgb(161, 22, 50);
+  color: white;
+  border: none;
+  padding: 25px 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .formulario {
+    width: 90%;
+  }
+} 
